@@ -1,3 +1,3 @@
-import React from 'react'
-import ColorSelector from './ColorSelector.js'
-import Cell from './Cell.js'
+import React, { Component } from 'react'
+import ColorSelector from './src/ColorSelector.js'
+import Cell from './src/Cell.js'
