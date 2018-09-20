@@ -4,6 +4,10 @@ import Cell from './Cell.js'
 
 export default class Matrix extends Component {
   constructor(){
-    
+    super()
+    this.state = {
+      
+    }
+
   }
 }
