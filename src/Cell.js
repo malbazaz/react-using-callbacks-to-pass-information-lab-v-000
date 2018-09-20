@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Cell extends Component {
-  
+
   constructor(props) {
     super(props)
     this.state = {
@@ -9,10 +9,10 @@ export default class Cell extends Component {
     }
   }
   function colorClick(){
-    const newColor = this.props.getSelectedColor()
+    const newColor = this.props.selectNewColor()
     this.setState({
       color: newColor
-    
+
   }
 
   render() {
@@ -21,5 +21,5 @@ export default class Cell extends Component {
       </div>
     )
   }
-  
+
 }
