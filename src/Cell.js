@@ -12,8 +12,7 @@ export default class Cell extends Component {
     const newColor = this.props.selectNewColor()
     this.setState({
       color: newColor
-
-  }
+  })
 
   render() {
     return (
