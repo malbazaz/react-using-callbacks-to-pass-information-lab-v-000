@@ -13,6 +13,7 @@ export default class Cell extends Component {
     this.setState({
       color: newColor
   })
+}
 
   render() {
     return (
