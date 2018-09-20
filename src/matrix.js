@@ -9,7 +9,9 @@ export default class Matrix extends Component {
       selectedColor: '#FFF'
     }
   function selectNewColor(color){
-    
+    this.setState({
+      this.selectedColor: color
+    })
   }
 
   }
